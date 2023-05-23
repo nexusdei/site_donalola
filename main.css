@@ -62,14 +62,17 @@ header .container {
 }
 
 /* PARTE - SOBRE A LOJA */
-section img {
-    max-width: 400px;
-    margin-left: 50px;
+#about img {
+    max-width: 300px;
 }
 
 section .container {
     display: flex;
     align-items: flex-start;
+}
+
+#about .container {
+    flex-direction: column;
 }
 
 /* Estilização dos elementos da section, alinhamento vertical no
@@ -102,6 +105,10 @@ section p {
 
 
 /* ESTILO DA SEÇÃO CONTATO */
+#contact img {
+    max-width: 100px;
+    display: inline;
+}
 
 #contact .container {
     display: block;
@@ -138,13 +145,30 @@ form button {
 }
 
 form button:hover {
-    background-color: #314e9e;
+    background-color: #c8da0a;
 }
 
+/* COR DA CAIXA - DOS TEXTOS*/
 input:focus, textarea:focus {
-    outline-color: #182C61;
+    outline-color: #c8da0a;
 }
 
+
+/* SOCIAL LINKS - NOS ACOMPANHE */
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+/* RODAPÉ E ASSINATURA */
 footer {
     background-color: goldenrod;
     color: #ecf0f1;
