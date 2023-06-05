@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box
 }
 
 /* ESCOLHA DAS FONTES - DADOS DO GOOGLE FONTS */
@@ -64,7 +64,9 @@ header .container {
 /* PARTE - SOBRE A LOJA */
 
 #about img {
-    max-width: 300px;
+    weight: 400px;
+    height: 400px;
+    margin: 9px;
 }
 
 section .container {
