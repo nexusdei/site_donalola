@@ -64,7 +64,6 @@ header .container {
 /* PARTE - SOBRE A LOJA */
 
 #about img {
-    weight: 400px;
     height: 400px;
     margin: 9px;
 }
@@ -77,6 +76,7 @@ section .container {
 #about .container {
     flex-direction: column;
     text-align: center;
+    align-items: center;
 }
 
 /* Estilização dos elementos da section, alinhamento vertical no
